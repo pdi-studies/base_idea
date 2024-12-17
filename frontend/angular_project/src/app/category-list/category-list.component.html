@@ -1,0 +1,17 @@
+<section id="categories">
+    <div class="container my-3 py-5">
+        <div class="row my-5">
+            <div
+                class="col text-center"
+                *ngFor="let category of categories">
+                <a href="#" class="categories-item">
+                    
+                    <div class="category-icon" [innerHTML]="category.svg"></div>
+                    <h5>{{ category.title }}</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+  
+

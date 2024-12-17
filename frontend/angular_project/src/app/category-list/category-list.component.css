@@ -1,0 +1,11 @@
+.categories-item {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .category-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #DEAD6F99;
+    font-size: 100px;
+  }
